@@ -1,0 +1,46 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+h1{
+    color: whitesmoke;
+}
+h3 , h2{
+    color: yellow;
+}
+header{
+    text-align: center;
+}
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 44.44%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: white;
+    color:hotpink;
+  }
+  .fa-youtube {
+    background: white;
+    color:red;
+  }
+  footer{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }

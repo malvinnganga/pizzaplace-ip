@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="active-menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+    <title>Activemenu/page</title>
+</head>
+<body>
+<h1>OUR ACTIVE DELICACIES ARE;</h1>
+<div class="row">
+    <div class="column">
+      <img src="./images (1).jpeg" height="300px" width="300px" >
+      <p>Pepperoni pizza</p>
+    </div>
+    <div class="column">
+      <img src="./images.jpeg" height="300px" width="300px" >
+      <p>Veggie pizza</p>
+    </div>
+    <div class="column">
+      <img src="./images (2).jpeg" height="300px" width="300px" >
+      <p>Cheese pizza</p>
+    </div>
+  </div>
+  <p>ORDER NOW !!</p>
+
+  <label for="select">Select Size</label>
+<select class="browser-default custom-select custom-select-md mb-3" id="size">
+<option selected value="0">Select your pizza size</option>
+ <option value="small">Small ;sh. 500</option>
+<option value="medium">Medium ;sh. 990</option>
+ <option value="large">Large ; sh. 1600</option>
+</select>
+
+<label for="crust">Select your pizza crust</label>
+<select class="browser-default custom-select custom-select-md mb-3" id="crust">
+<option selected value="0">Select your pizza crust</option>
+<option value="Crispy">Crispy ;ksh. 150</option>
+<option value="Stuffed">Stuffed ;ksh. 100</option>
+<option value="Gluten-free">Gluten-free; ksh. 120</option>
+</select>
+
+<label for="Toppings">Select Your Toppings</label><br>
+<div class="custom-control custom-checkbox custom-control-inline">
+  <input type="checkbox" class="custom-control-input" id="pepperoni" value="pepperoni" name="toppings">
+  <label class="custom-control-label" for="pepperoni">Pepperoni</label>
+</div>
+<div class="custom-control custom-checkbox custom-control-inline">
+  <input type="checkbox" class="custom-control-input" id="Veggie" value="Veggie" name="toppings">
+  <label class="custom-control-label" for="Veggie">Veggies</label>
+</div>
+<div class="custom-control custom-checkbox custom-control-inline">
+  <input type="checkbox" class="custom-control-input" id="Cheese" value="Cheese" name="toppings">
+  <label class="custom-control-label" for="Cheese">Cheese</label>
+
+  <label for="number">Select your number</label>
+<select class="browser-default custom-select custom-select-md mb-3" id="number">
+<option selected value="0">Select your number</option>
+<option value="1">one</option>
+<option value="2">two</option>
+<option value="3">three</option>
+<option value="4">four</option>
+<option value="5">five</option>
+</select>
+
+<button onclick="myFunction()">ORDER</button>
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Do you want it delivered?"
+    }
+    </script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
