@@ -15,3 +15,4 @@ $(document).ready(function(){
  $('.column').toggle();
  })
  })
+ 
